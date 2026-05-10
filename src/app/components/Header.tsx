@@ -12,7 +12,7 @@ export function Header({ activeTab, onTabChange, onHelpClick }: HeaderProps) {
     { id: 'matches', label: 'マッチ履歴', icon: Activity },
     { id: 'maps', label: 'マップツール', icon: Map },
     { id: 'weapons', label: '武器統計', icon: Crosshair },
-    { id: 'buy', label: 'バイ情報', icon: ShoppingCart },
+    { id: 'buy', label: 'BUY情報', icon: ShoppingCart },
     { id: 'account', label: 'アカウント', icon: User },
   ];
 
