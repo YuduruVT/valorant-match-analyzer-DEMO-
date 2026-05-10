@@ -1,16 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Match Analyzer - Demo</title>
+    <style>
+        body { background-color: #0f1923; color: #ece8e1; font-family: 'Segoe UI', sans-serif; margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+        .container { text-align: center; border: 2px solid #ff4655; padding: 40px; background: #1f2933; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h1 { color: #ff4655; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px; }
+        p { margin-bottom: 30px; opacity: 0.8; }
+        .login-btn { background-color: #ff4655; color: white; border: none; padding: 15px 40px; font-size: 18px; font-weight: bold; cursor: pointer; transition: 0.3s; text-transform: uppercase; }
+        .login-btn:hover { background-color: #ff5865; transform: scale(1.05); }
+        .preview-img { margin-top: 30px; max-width: 100%; border: 1px solid #383e4a; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Valorant Match Analyzer</h1>
+        <p>Your ultimate tool for performance tracking</p>
+        
+        <button class="login-btn" onclick="alert('Riot SSO ログイン画面へリダイレクトするデモです。')">
+            Login with Riot ID
+        </button>
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Valorant Match Analyzer</title>
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
-    </head>
-
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
+        <div style="margin-top: 40px;">
+            <p>【開発中のレイアウト案】</p>
+            <img src="スクリーンショット 2026-05-10 162257.png" alt="Layout Preview" class="preview-img" style="width: 300px;">
+        </div>
+    </div>
+</body>
+</html>
