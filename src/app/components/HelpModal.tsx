@@ -59,7 +59,7 @@ export function HelpModal({ onClose }: HelpModalProps) {
               />
               <FeatureItem
                 icon={<ShoppingCart className="text-[#ff4655]" />}
-                title="バイ情報"
+                title="BUY情報"
                 description="ラウンド別の購入パターンと経済管理を分析します。エコラウンド、フォースバイ、フルバイの成功率を確認し、最適な購入判断をサポートします。"
               />
             </div>
